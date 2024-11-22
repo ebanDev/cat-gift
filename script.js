@@ -26,7 +26,7 @@ updateRotation();
 
 // Initialize shake detection
 const myShakeEvent = new Shake({
-    threshold: 15, // shake strength threshold
+    threshold: 20, // shake strength threshold
     timeout: 1000,  // minimum time between shakes
     handler: shakeDetected // callback function
 });
